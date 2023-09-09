@@ -1,0 +1,12 @@
+node_modules
+*.log
+*.aes
+cypress/screenshots
+cypress/videos
+cypress/downloads
+cypress/reports
+.history
+.vscode
+env
+.DS_Store
+

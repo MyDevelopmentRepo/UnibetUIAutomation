@@ -1,0 +1,54 @@
+{
+   "firstName": "Automation",
+   "lastName": "User",
+   "password": "Uni!#Automa1",
+   "date": "10",
+   "month": "10",
+   "year": "1986",
+   "email": "testAutomation!@gmail.com",
+   "gender": "Female",
+   "invalidEmails": [
+      {
+         "id": "kanchan.dhyani@gmail.com#",
+         "errormsg": "Please enter a valid email address."
+      },
+      {
+         "id": "kanchan.dhyani@gm@$ail.com345",
+         "errormsg": "Please enter a valid email address."
+      },
+      {
+         "id": "kanchan.dhyani@.gmailcom345",
+         "errormsg": "Please enter a valid email address."
+      },
+      {
+         "id": "@4hghfg5h.com",
+         "errormsg": "Please enter a valid email address."
+      },
+      {
+         "id": "kanchan.dhyanigmailcom",
+         "errormsg": "Please enter a valid email address."
+      }
+   ],
+   "validEmails": [
+      {
+         "id": "kanc*h#$%^^&&*&*&an~.dhyani@gmail.com345"
+      },
+      {
+         "id": ".@23.23"
+      }
+   ],
+   "invalidEmailsOnContinue": [
+      {
+         "id": "kancha.dhyani@gm>ail.com",
+         "errormsg": "A part following '@' should not contain the symbol '>'."
+      },
+      {
+         "id": "kanc(han.dhyani@gmail.com345",
+         "errormsg": "A part followed by '@' should not contain the symbol '('."
+      },
+      {
+         "id": "kanchan.dhyani@.gm#ail.com",
+         "errormsg": "A part following '@' should not contain the symbol '#'."
+      }
+   ]
+}
